@@ -22,7 +22,7 @@ class FlightTable:
 
 ft = FlightTable()
 search_param = input('Choose search parameter [1. Team, 2. Match Location, 3. Timing]: ')
-value = input('Enter parameter: ')
+value = input('Enter value: ')
 
 if search_param == "1":
     search_param = "Team 01"
